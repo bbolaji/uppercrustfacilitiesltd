@@ -53,6 +53,7 @@ h2 {
     color: #555;
 }
 
+/* About Section Styles */
 .about-section {
     display: flex;
     align-items: center;
@@ -67,6 +68,7 @@ h2 {
     border-radius: 8px;
 }
 
+/* Social Links Styles */
 .social-links {
     display: flex;
     flex-direction: column;
@@ -96,7 +98,7 @@ h2 {
     color: #333; /* Adjust the color of the icons */
 }
 
-/* Media query for mobile devices */
+/* Media Query for Mobile Devices */
 @media (max-width: 768px) {
     .about-section {
         flex-direction: column;
