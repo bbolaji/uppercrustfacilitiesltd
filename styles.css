@@ -71,7 +71,7 @@ h2 {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .responsive-image {
-        width: 100%; /* Ensures the image takes the full width of the screen */
+        width: 100%; /* Ensures the image fits to the screen */
         max-width: none; /* Removes the maximum width restriction */
         border: 1px solid #87CEEB; /* Adjust the border size if needed */
     }
@@ -122,7 +122,7 @@ h2 {
 }
 
 .gallery-images img:hover {
-    transform: scale(16.9); /* Optional: enlarge image on hover */
+    transform: scale(4.3); /* Optional: enlarge image on hover */
 }
 
 /* Responsive Styles */
