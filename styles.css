@@ -73,7 +73,7 @@ h2 {
     .responsive-image {
         width: 100%; /* Ensures the image fits to the screen */
         max-width: none; /* Removes the maximum width restriction */
-        border: 1px solid #87CEEB; /* Adjust the border size if needed */
+        border: 1px solid #87CEEB; /* Cloud blue border*/
     }
 }
 /* Contact Us Section */
