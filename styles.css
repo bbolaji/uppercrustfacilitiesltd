@@ -69,7 +69,7 @@ h2 {
 }
 
 /* Media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 300px) {
     .responsive-image {
         width: 100%; /* Ensures the image fits to the screen */
         max-width: none; /* Removes the maximum width restriction */
