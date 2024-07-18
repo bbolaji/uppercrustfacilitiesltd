@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Segoe UI, semi-bold;
     background-color: #87CEEB; /* Cloud blue and black background */
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ h2 {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .responsive-image {
-        width: 60%; /* Ensures the image fits to the screen */
+        width: 100%; /* Ensures the image fits to the screen */
         max-width: none; /* Removes the maximum width restriction */
         border: 1px solid #87CEEB; /* Adjust the border size if needed */
     }
