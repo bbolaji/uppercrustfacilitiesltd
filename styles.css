@@ -66,6 +66,19 @@ h2 {
     height: auto;
     border: 2px solid #87CEEB; /* Cloud blue border */
     border-radius: 8px;
+    animation: moveImage 2s ease-in-out forwards;
+}
+
+/* Keyframes for image animation */
+@keyframes moveImage {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* Social Links Styles */
