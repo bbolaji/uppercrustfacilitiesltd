@@ -17,3 +17,22 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+<script>
+        // JavaScript to toggle dropdown menu
+        document.addEventListener('DOMContentLoaded', function() {
+            var dropdown = document.querySelector('.dropbtn');
+            var dropdownContent = document.querySelector('.dropdown-content');
+
+            dropdown.addEventListener('click', function() {
+                dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+            });
+
+            window.addEventListener('click', function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    if (dropdownContent.style.display === 'block') {
+                        dropdownContent.style.display = 'none';
+                    }
+                }
+            });
+        });
+    </script>
